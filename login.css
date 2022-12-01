@@ -1,0 +1,81 @@
+/* Fundo */
+body {
+  padding: 0;
+  margin: 0;
+  background: #1c1c1c;
+}
+/* Conteiner */
+.conteiner {
+  border-radius: 25px 60px;
+  background: rgba(255, 255, 255, 0.14);
+  box-shadow: 0 4px 30px rgba(255, 253, 253, 0.438);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  position: relative;
+  max-width: 260px;
+  margin: 100px auto 100px;
+  padding: 10px 45px 30px 45px;
+  width: 40%;
+  height: 55%;
+}
+/* Título */
+.conteiner h1 {
+  color: white;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+/* Cixas de Texto*/
+.conteiner input {
+  border-radius: 25px;
+  border-color: rgb(242, 0, 201);
+  width: 100%;
+  height: 20px;
+  margin-top: 5px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  font-size: 15px;
+  outline: 0;
+  color: white;
+  font-family: "Comfortaa", cursive;
+  margin-right: 40px;
+}
+.conteiner input:hover {
+  border-color: rgb(255, 0, 132);
+  color: white;
+  font-family: "Comfortaa", cursive;
+}
+/* Botões */
+.conteiner button {
+  height: 35px;
+  width: 100px;
+  border-radius: 25px;
+  margin-top: 30px;
+  margin-left: 85px;
+  background-color: rgb(242, 0, 201);
+  color: white;
+  font-size: 17px;
+  font-family: "Comfortaa", cursive;
+  border: none;
+}
+.conteiner button:hover {
+  background: rgb(255, 0, 132);
+  border: none;
+  box-shadow: 0 4px 30px rgba(255, 253, 253, 0.577);
+}
+.conteiner p {
+  color: white;
+  font-family: "Comfortaa", cursive;
+  margin-top: 30px;
+  font-size: 16px;
+}
+.conteiner a {
+  color: rgb(252, 1, 223);
+  font-size: 16px;
+  margin-left: 5px;
+}
+.conteiner a:hover {
+  color: rgb(255, 0, 132);
+}
